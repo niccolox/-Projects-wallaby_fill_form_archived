@@ -28,8 +28,8 @@ defmodule WallabyFillForm.Mixfile do
   defp deps do
     [
       {:ex_doc, "~> 0.16", only: :dev},
-      {:phoenix_html, "~> 2.10"},
-      {:wallaby, "~> 0.19"},
+      {:phoenix_html, "~> 3.3"},
+      {:wallaby, "~> 0.30"},
     ]
   end
 
